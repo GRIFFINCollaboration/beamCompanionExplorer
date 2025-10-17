@@ -12,13 +12,13 @@ dataStore.energyLoss = 1.7; //percent energy loss in stripping foil
 dataStore.beamEnergy = 1.5; //MeV / nucleon
 dataStore.liner = 'aluminium' // any key of dataStore.linerSpecies
 dataStore.AQfwhm = 0.001 //relative fwhm error on A/Q
-dataStore.ISACIIminAQ = 4.9
+dataStore.ISACIIminAQ = 4.0  // Was 4.9. Request for 4.0 by Friedhelm Ames, 2026 Oct 17th for 37K case
 dataStore.ISACIImaxAQ = 7
 dataStore.plotData = {};
 dataStore.chargeStateFractionCSV = {};
 dataStore.plots = {};
 dataStore.colors = {
-    'Selected': "rgba(1, 152, 117, 0.5)",//"rgba(34, 49, 63, 0.5)", 
+    'Selected': "rgba(1, 152, 117, 0.5)",//"rgba(34, 49, 63, 0.5)",
     'Stable':   "rgba(1, 152, 117, 0.5)",
     'Surface':  "rgba(1, 152, 117, 0.5)",//"rgba(246, 71, 71, 0.5)",
     'Decay':    "rgba(1, 152, 117, 0.5)"//"rgba(51, 110, 123, 0.5)"
